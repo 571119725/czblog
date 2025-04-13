@@ -15,11 +15,8 @@
 ## 仓库说明
 
 - **==快速将你的obsidian笔记部署到网络上,并且根据git自动更新,或者生成笔记的静态资源文件的方法==**
-
 - 使用 [mdbook](https://github.com/rust-lang/mdBook) 和 [obsidian-export](https://github.com/zoni/obsidian-export) 加上 github的cicd和page实现,并且进行优化,[优化参考](./info/feature.md)
-
 - 需要有一定的git和github的使用基础
-
 ## Quick Start
 
 ### 视频教程
