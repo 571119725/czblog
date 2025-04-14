@@ -42,3 +42,26 @@ for(int i = 0; i < nums.length; i++) {
 }
 ```
 
+## 原地Hash
+
+将数组转为hash表，用来计算一个数组中不存在的最小正整数。
+
+不存在的正整数的范围为[1, nums.length]，一种做法是从1开始计算每个正整数是否存在与数组中，空间复杂度O(n)
+
+另一种做法将数组视为哈希表，将1到nums.length之间的每个数字都交换到nums[i] - 1的数组位置，然后从头看数组下标处不符合规则的地方就是缺少的正整数位置
+
+```java
+public int firstMissingPositive(int[] nums) {
+    int len = nums.length;
+    for(int i = 0; i < len; i++) {
+        while(nums[i] > 0 && nums[i] <= len && nums[nums[i] - 1] != nums[i]) {
+            swap(nums, nums[i] - 1, i);
+        }
+    }
+    for(int i = 0; i < len; i++) {
+        if(nums[i] - 1 != i) return i + 1;
+    }
+    return len;
+}
+```
+
