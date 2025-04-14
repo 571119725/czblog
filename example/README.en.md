@@ -1,10 +1,14 @@
+---
+typora-copy-images-to: ./assets
+---
+
 # obsidian2web
 
 ## Author
 
 - **chenxuan**
 
-- ![](http://cdn.androidftp.top/pic/chenxuanweb/dog.png)
+- ![ ](http://cdn.androidftp.top/pic/chenxuanweb/dog.png)
 
 ## Repository Address
 
