@@ -1,4 +1,4 @@
-# obsidian2web
+# 博客部署参考：obsidian2web
 
 ## Author
 
@@ -82,5 +82,4 @@
 ---
 
 - 如果你觉得这个仓库对你有帮助,可以给个免费的star⭐  ; )
-
 
