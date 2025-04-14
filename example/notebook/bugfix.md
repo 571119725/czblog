@@ -6,7 +6,7 @@ typora-copy-images-to: ./assets
 
 项目中的websocket连接存储在ConcurrentHashMap中，在发送消息时需要将其中的session取出调用sendText方法，如果同时有多个用户对同一名用户发送消息的话就会报错
 
-![image-20250413165846600](/Users/pickledfish/Documents/Codes/czblog/example/assets/image-20250413165846600.png)
+![image-20250414165416845](./assets/image-20250414165416845.png)
 
 原因：tomcat下的websocket包没有相关的多线程处理
 
