@@ -1,12 +1,12 @@
-# 博客部署参考：obsidian2web
-
 ## Author
 
-- **chenxuan**
+- **PickledFish**
 
-- ![](http://cdn.androidftp.top/pic/chenxuanweb/dog.png)
+- https://github.com/571119725
 
-## 仓库地址
+
+
+## 博客参考仓库地址
 
 - [GitHub - chenxuan520/obsidian2web: A tool to quickly convert obsidian repositories into web pages](https://github.com/chenxuan520/obsidian2web)
 
