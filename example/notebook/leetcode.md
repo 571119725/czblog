@@ -28,7 +28,7 @@ class MyDeque {
 
 ## 前缀和
 
-计算数组中子数组和为k的数量
+1. 计算数组中子数组和为k的数量
 
 子数组i ~ j 的和可以表示为sum(nums[j]) - sum(sums[i])，并判断是否等于k，所以可以使用hashmap存储sum(nums[i])的出现次数，然后通过遍历数组查看sum(nuts[j]) - k的key在map中是否存在，然后更新相关出现次数。
 
@@ -41,6 +41,12 @@ for(int i = 0; i < nums.length; i++) {
     map.put(count, map.getOrDefault(count, 0) + 1);
 }
 ```
+
+2. 计算二叉树中的路径和
+
+判断二叉树中是否有一条路径和为指定的大小k，路径必须从上往下。
+
+可以通过先序遍历，计算从根节点的路径和，然后判断当前的大小是否在集合中存在cur - k，如果存在，说明成立。
 
 ## 原地Hash
 
